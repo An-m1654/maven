@@ -1,0 +1,157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.samsthenerd.inline",
+    "module": "inline-fabric",
+    "version": "1.21.4-1.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "17.0.144"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "inline-fabric-1.21.4-1.2.2.jar",
+          "url": "inline-fabric-1.21.4-1.2.2.jar",
+          "size": 209941,
+          "sha512": "b2e2e10343d8cb0818d0d4befffb9f8dfcd9dafa246542b351bfd0da97745237b6d87145226162c609f9a70a96d850a0225d15179696d5a0c375a141f678ca17",
+          "sha256": "c1968c17c36e832f93a39f79da97370e0797b6b0e19d494f8bd0d79002c8aa8d",
+          "sha1": "c63ff72030a517e3a22589054ccfcc4d5a3bf9cb",
+          "md5": "e862c418225b5218268486c428109eee"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "17.0.144"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.119.4+1.21.4"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "13.0.4"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "inline-fabric-1.21.4-1.2.2.jar",
+          "url": "inline-fabric-1.21.4-1.2.2.jar",
+          "size": 209941,
+          "sha512": "b2e2e10343d8cb0818d0d4befffb9f8dfcd9dafa246542b351bfd0da97745237b6d87145226162c609f9a70a96d850a0225d15179696d5a0c375a141f678ca17",
+          "sha256": "c1968c17c36e832f93a39f79da97370e0797b6b0e19d494f8bd0d79002c8aa8d",
+          "sha1": "c63ff72030a517e3a22589054ccfcc4d5a3bf9cb",
+          "md5": "e862c418225b5218268486c428109eee"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "inline-fabric-1.21.4-1.2.2-sources.jar",
+          "url": "inline-fabric-1.21.4-1.2.2-sources.jar",
+          "size": 109232,
+          "sha512": "6bc7178b3101c2d691e117ab2da8ddbcea7ecf70caf4384a9c0c67d9f5994dfafe8b1827ccb604523013727b94f4a68d68de61ef8097cf95115d91b2ccf32fbb",
+          "sha256": "98e1c00bd1028bc5c423d509bf8fa3ea482f62544c2133197f68f921f63df2c8",
+          "sha1": "be2c053d662d5aed283c9ae9ae45776c66032657",
+          "md5": "54df1ab6fdc583e051d84de35e917ff3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "inline-fabric-1.21.4-1.2.2-javadoc.jar",
+          "url": "inline-fabric-1.21.4-1.2.2-javadoc.jar",
+          "size": 4165615,
+          "sha512": "6febc6374819bbf3ab413c9443e2de63e4afbc4bbb1d70eaea82ad719b90f54cd5337d21cc1fd065e8d0c182e582c299f8ac59b268242b10c02e51136b9b682c",
+          "sha256": "dd5c05de0394fcee93d0911ac89ef097d29354664882e02ae941b7293fe80bf4",
+          "sha1": "a786958d9e9d46d34eb0970e3bfb9862982133a1",
+          "md5": "757187088c8845b648033d11c20320c7"
+        }
+      ]
+    }
+  ]
+}
