@@ -14,5 +14,17 @@
             <version>0.12.0-devel+1</version>
             <description>Unofficial 1.21.4 port of Hexcasting. Fabric.</description>
         </archetype>
+        <archetype>
+            <groupId>com.samsthenerd.inline</groupId>
+            <artifactId>inline-common</artifactId>
+            <version>1.21.4-1.2.2</version>
+            <description>Unofficial 1.21.4 port of Inline. Common.</description>
+        </archetype>
+        <archetype>
+            <groupId>com.samsthenerd.inline</groupId>
+            <artifactId>inline-fabric</artifactId>
+            <version>1.21.4-1.2.2</version>
+            <description>Unofficial 1.21.4 port of Inline. Fabric.</description>
+        </archetype>
     </archetypes>
 </archetype-catalog>
