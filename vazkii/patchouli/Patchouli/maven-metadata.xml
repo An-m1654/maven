@@ -6,8 +6,9 @@
     <latest>1.21.4-94-FABRIC</latest>
     <release>1.21.4-94-FABRIC</release>
     <versions>
+      <version>1.21.4-94-FABRIC-dev</version>
       <version>1.21.4-94-FABRIC</version>
     </versions>
-    <lastUpdated>20260826115506</lastUpdated>
+    <lastUpdated>20260826120446</lastUpdated>
   </versioning>
 </metadata>

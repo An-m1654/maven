@@ -3,6 +3,6 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>vazkii.patchouli</groupId>
-  <artifactId>Patchouli-xplat-dev</artifactId>
-  <version>1.21.4-94</version>
+  <artifactId>Patchouli</artifactId>
+  <version>1.21.4-94-FABRIC-dev</version>
 </project>
