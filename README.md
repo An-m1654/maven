@@ -47,9 +47,12 @@ inlineVersion=1.2.2
 
 # Architecture of this maven repository (For those who are curious and don't know)
 
-I followed this structure designed by Apache [here](https://maven.apache.org/repository/layout.html).
+I very very loosely followed this structure designed by Apache [here](https://maven.apache.org/repository/layout.html). The
+archetype-catalog.xml is not needed as this is a maven repo for Gradle, which doesn't need it. Groups also doesn't need a
+maven-metadata.xml, and gradle will happily not generate that file, which is normal.
 
 It's actually very simple to add a new library. I run gradle publish to my own local repo (NOT the one in .m2/repository.
 I specify a publish repository which is a file path on my computer to a location that I placed this git repository in,
 then run publishXXXXToMavenRepository, not publishXXXToMavenLocal), then do a `git add .`, then `git push`. The new
 library would now be here.
+
