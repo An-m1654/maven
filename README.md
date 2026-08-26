@@ -3,6 +3,7 @@
 This is a maven repo of some of my projects which I don't want to put onto maven central. Currently, it includes:
 - Hex Casting
 - Inline
+- Patchouli
 
 I might add more here if I want to.
 
@@ -50,5 +51,5 @@ I followed this structure designed by Apache [here](https://maven.apache.org/rep
 
 It's actually very simple to add a new library. I run gradle publish to my own local repo (NOT the one in .m2/repository.
 I specify a publish repository which is a file path on my computer to a location that I placed this git repository in,
-then run publishXXXXToMavenRepository, not publishXXXToMavenLocal), then update the archetype-catalog.xml, then do a
-`git add .`, then `git push`. The new library would now be here.
+then run publishXXXXToMavenRepository, not publishXXXToMavenLocal), then do a `git add .`, then `git push`. The new
+library would now be here.
